@@ -11,7 +11,7 @@ function App() {
   return (
      <Router>
         <Routes>
-          <Route path='/' element={<LandingPage />} />
+          <Route path='/' element={<AreaList />} />
           <Route path='login' element={<LoginPage/>}></Route>
           <Route path='registration' element={<RegistrationPage/>}></Route>
           <Route path='region' element={<RegionList/>}></Route>
